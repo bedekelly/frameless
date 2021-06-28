@@ -1,8 +1,8 @@
 {
   "name": "image-viewer",
-  "productName": "image-viewer",
+  "productName": "Image Viewer",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Simple drag-and-drop viewer for images",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
