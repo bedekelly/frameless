@@ -50,7 +50,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #image {
@@ -99,4 +99,8 @@ body {
 
 #dropzone {
   pointer-events: none;
+}
+
+img {
+  -webkit-app-region: drag;
 }
