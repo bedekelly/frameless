@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html style="-webkit-app-region: drag">
   <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+  <body id="main">
+    <section class="dropzone">
+      <h1>+</h1>
+      <p>Drop an image here!</p>
+    </section>
+    <img id="image" />
+    <div id="zoom">
+      <input type="range" min="1" max="100" value="50" id="range" />
+      ·
+      <button id="clear" onClick="fitZoom()">Fit to screen</button>
+    </div>
+    <script src="page.js"></script>
   </body>
 </html>
