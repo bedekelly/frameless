@@ -50,6 +50,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: 100%;
+  height: 100vh;
 }
 
 #image {
@@ -94,4 +95,8 @@ body {
 
 #clear:hover {
   opacity: 1;
+}
+
+#dropzone {
+  pointer-events: none;
 }

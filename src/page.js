@@ -16,7 +16,7 @@ dropZone.addEventListener("dragover", (event) => {
   event.preventDefault();
 });
 
-image.addEventListener("dragover", (event) => {
+body.addEventListener("dragover", (event) => {
   event.preventDefault();
 });
 
@@ -53,6 +53,7 @@ function fitZoom() {
 
 dropZone.addEventListener("drop", onDrop);
 image.addEventListener("drop", onDrop);
+body.addEventListener("drop", onDrop);
 
 body.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
