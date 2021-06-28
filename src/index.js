@@ -14,7 +14,8 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    titleBarStyle: "hidden",
+    frame: false,
+    titleBarStyle: "customButtonsOnHover",
     title: "Image Viewer",
     alwaysOnTop: true,
   });

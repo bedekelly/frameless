@@ -55,6 +55,7 @@ body {
 #image {
   width: 100%;
   transform-origin: 0 0;
+  transition: ease transform 0.1s;
 }
 
 #zoom {
@@ -69,7 +70,7 @@ body {
   display: flex;
   padding: 10px;
   transition: ease opacity 0.1s;
-  /* display: none; */
+  display: none;
 }
 
 #zoom:hover {
