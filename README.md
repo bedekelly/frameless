@@ -1,4 +1,4 @@
-# Image Viewer
+# Frameless
 A minimal image viewer for MacOS.
 
 ![IBM Datacenter](screenshot.png)
