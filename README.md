@@ -13,3 +13,8 @@ This came about because I needed a quick way of comparing a design for a webpage
 * Use the controls on the bottom left if zooming is needed
 * Toggle "always-on-top" behaviour in the menu bar
 
+## Installation:
+
+* Clone the repository
+* `yarn && yarn make`
+* Copy `out/Image Viewer-x-x/Image Viewer.app` into `Applications`
