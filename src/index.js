@@ -15,6 +15,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     frame: false,
+    transparent: true,
     titleBarStyle: "customButtonsOnHover",
     title: "Image Viewer",
     alwaysOnTop: true,

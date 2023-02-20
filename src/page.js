@@ -64,6 +64,7 @@ body.addEventListener("keydown", (event) => {
 });
 
 range.addEventListener("input", (event) => {
-  const scale = event.target.value * 2;
-  image.style.transform = `scale(${scale}%)`;
+  const opacity = event.target.value * 2;
+  // image.style.transform = `scale(${scale}%)`;
+  image.style.opacity = `${opacity}%`;
 });
